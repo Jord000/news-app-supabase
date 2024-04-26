@@ -42,39 +42,39 @@ async function writeDataToFile(data, fileName) {
 }
 
 async function convertJsonToCsv(data, fileName) {
-  try {
-    // Extracting the keys from the first object to use as column headers
-    const keys = Object.keys(data[0]);
+    try {
+        const keys = Object.keys(data[0]);
+        let csvContent = keys.join(',') + '\n'; // Headers
 
-    // Creating CSV content
-    let csvContent = keys.join(",") + "\n"; // Headers
+        data.forEach(obj => {
+            const row = keys.map(key => {
+                let value = obj[key];
+                if (typeof value === 'string' && value.includes(',')) {
+                    value = `"${value}"`;
+                } else if (typeof value === 'number') {
+                    value = value.toString(); // Convert number to string
+                }
+                return value;
+            });
+            csvContent += row.join(',') + '\n';
+        });
 
-    // Adding rows
-    data.forEach((obj) => {
-      const row = keys.map((key) => {
-        let value = obj[key];
-        // If the value contains a comma, surround it with double quotes
-        if (value && value.includes(",")) {
-          value = `"${value}"`;
-        }
-        return value;
-      });
-      csvContent += row.join(",") + "\n";
-    });
-
-    // Write CSV content to file
-    await writeFile(fileName, csvContent, "utf8");
-    console.log(`Data has been successfully written to ${fileName}`);
-  } catch (error) {
-    console.error("Error:", error);
-  }
+        await writeFile(fileName, csvContent, 'utf8');
+        console.log(`Data has been successfully written to ${fileName}`);
+    } catch (error) {
+        console.error("Error:", error);
+    }
 }
+
 
 const convertArticles = jsonCreatedAtToPostgresTimestamp(articles);
 const convertComments = jsonCreatedAtToPostgresTimestamp(comments);
 
-writeDataToFile(convertArticles, "articles.js");
-writeDataToFile(convertComments, "comments.js");
+await writeDataToFile(convertArticles, "articles.js");
+await writeDataToFile(convertComments, "comments.js");
 
-convertJsonToCsv(articles, "articles.csv");
-convertJsonToCsv(comments, "comments.csv");
+import convertedArticles from "./articlesConverted.js"
+import convertedComments from "./commentsConverted.js"
+
+convertJsonToCsv(convertedArticles, "articles.csv");
+convertJsonToCsv(convertedComments, "comments.csv");
