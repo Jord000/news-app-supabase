@@ -13,7 +13,7 @@ export default [
     "topic": "coding",
     "author": "jessjelly",
     "body": "Many people know Watson as the IBM-developed cognitive super computer that won the Jeopardy! gameshow in 2011. In truth, Watson is not actually a computer but a set of algorithms and APIs, and since winning TV fame (and a $1 million prize) IBM has put it to use tackling tough problems in every industry from healthcare to finance. Most recently, IBM has announced several new partnerships which aim to take things even further, and put its cognitive capabilities to use solving a whole new range of problems around the world.",
-    "created_at": "2020-05-14 00:02:00",
+    "created_at": "2020-05-13 22:02:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?w=700&h=700"
   },
@@ -31,7 +31,7 @@ export default [
     "topic": "coding",
     "author": "jessjelly",
     "body": "When I first started learning React, I remember reading lots of articles about the different technologies associated with it. In particular, this one article stood out. It mentions how confusing the ecosystem is, and how developers often feel they have to know ALL of the ecosystem before using React. And as someone who’s used React daily for the past 8 months or so, I can definitely say that I’m still barely scratching the surface in terms of understanding how the entire ecosystem works! But my time spent using React has given me some insight into when and why it might be appropriate to use another technology — Redux (a variant of the Flux architecture).",
-    "created_at": "2020-09-11 20:12:00",
+    "created_at": "2020-09-11 18:12:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/4974912/pexels-photo-4974912.jpeg?w=700&h=700"
   },
@@ -40,7 +40,7 @@ export default [
     "topic": "coding",
     "author": "jessjelly",
     "body": "Another Angular version planned already? Whaaaat? Didn’t Angular 2 just ship? Why Angular 3? What? Why? First off, there is no massive rewrite, and won’t be for Angular 3. Secondly, let me explain the future of Angular 2 and what Angular 3, Angular 4 will mean for you.",
-    "created_at": "2020-04-21 16:06:00",
+    "created_at": "2020-04-21 14:06:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/14011035/pexels-photo-14011035.jpeg?w=700&h=700"
   },
@@ -58,7 +58,7 @@ export default [
     "topic": "coding",
     "author": "tickle122",
     "body": "When I interviewed for the iOS developer opening at Discord last spring, the tech lead Stanislav told me: React Native is the future. We will use it to build our iOS app from scratch as soon as it becomes public. As a native iOS developer, I strongly doubted using web technologies to build mobile apps because of my previous experiences with tools like PhoneGap. But after learning and using React Native for a while, I am glad we made that decision.",
-    "created_at": "2020-10-18 00:26:00",
+    "created_at": "2020-10-17 22:26:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/6424586/pexels-photo-6424586.jpeg?w=700&h=700"
   },
@@ -67,7 +67,7 @@ export default [
     "topic": "coding",
     "author": "cooljmessy",
     "body": "You’re probably aware that JavaScript is the programming language most often used to add interactivity to the front end of a website, but its capabilities go far beyond that—entire sites can be built on JavaScript, extending it from the front to the back end, seamlessly. Express.js and Node.js gave JavaScript newfound back-end functionality—allowing developers to build software with JavaScript on the server side for the first time. Together, they make it possible to build an entire site with JavaScript: You can develop server-side applications with Node.js and then publish those Node.js apps as websites with Express. Because Node.js itself wasn’t intended to build websites, the Express framework is able to layer in built-in structure and functions needed to actually build a site. It’s a pretty lightweight framework that’s great for giving developers extra, built-in web application features and the Express API without overriding the already robust, feature-packed Node.js platform. In short, Express and Node are changing the way developers build websites.",
-    "created_at": "2020-10-05 22:23:00",
+    "created_at": "2020-10-05 20:23:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/11035482/pexels-photo-11035482.jpeg?w=700&h=700"
   },
@@ -76,7 +76,7 @@ export default [
     "topic": "coding",
     "author": "grumpy19",
     "body": "Both CSS3 and HTML5 are just about fully supported in all modern browsers, and we there are techniques in place to patch old browsers that lack support. So there is no disadvantage to using CSS3 and HTML5 today. The opposite is true, however: there are many painful, frustrating disadvantages with forgoing HTML5 and CSS3. You may already “know” a bit of HTML5 and a touch of CSS3 (or perhaps you probably know enough old-school HTML and CSS, and with this knowledge, you might have thought you needn’t learn HTML5 and CSS3 fully.",
-    "created_at": "2020-05-26 14:06:00",
+    "created_at": "2020-05-26 12:06:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?w=700&h=700"
   },
@@ -85,7 +85,7 @@ export default [
     "topic": "coding",
     "author": "cooljmessy",
     "body": "When designing an application that will communicate with a remote computer, a data format and exchange protocol must be selected. There are a variety of open, standardized options, and the ideal choice depends on the applications requirements and pre-existing functionality. For example, SOAP-based web services format the data in an XML payload wrapped within a SOAP envelope. While XML works well for many application scenarios, it has some drawbacks that make it less than ideal for others. One such space where XML is often less than ideal is with Ajax-style web applications. Ajax is a technique used for building interactive web applications that provide a snappier user experience through the use of out-of-band, lightweight calls to the web server in lieu of full-page postbacks. These asynchronous calls are initiated on the client using JavaScript and involve formatting data, sending it to a web server, and parsing and working with the returned data. While most browsers can construct, send, and parse XML, JavaScript Object Notation (or JSON) provides a standardized data exchange format that is better-suited for Ajax-style web applications. JSON is an open, text-based data exchange format (see RFC 4627). Like XML, it is human-readable, platform independent, and enjoys a wide availability of implementations. Data formatted according to the JSON standard is lightweight and can be parsed by JavaScript implementations with incredible ease, making it an ideal data exchange format for Ajax web applications. Since it is primarily a data format, JSON is not limited to just Ajax web applications, and can be used in virtually any scenario where applications need to exchange or store structured information as text. This article examines the JSON standard, its relationship to JavaScript, and how it compares to XML. Jayrock, an open-source JSON implementation for .NET, is discussed and examples of creating and parsing JSON messages are provided in JavaScript and C#.",
-    "created_at": "2020-07-02 11:23:00",
+    "created_at": "2020-07-02 09:23:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/11035481/pexels-photo-11035481.jpeg?w=700&h=700"
   },
@@ -94,7 +94,7 @@ export default [
     "topic": "coding",
     "author": "tickle122",
     "body": "At some point or another, you will find yourself writing JavaScript code that exceeds the couple of lines from a jQuery plugin. Your code will do a whole lot of things; it will (ideally) be used by many people who will approach your code differently. They have different needs, knowledge and expectations.",
-    "created_at": "2020-07-06 23:13:00",
+    "created_at": "2020-07-06 21:13:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/5483071/pexels-photo-5483071.jpeg?w=700&h=700"
   },
@@ -112,7 +112,7 @@ export default [
     "topic": "football",
     "author": "weegembump",
     "body": "Jose Mourinho was at The O2 on Sunday night to watch Dominic Thiem in action against Novak Djokovic. Thiem took the first set before Djokovic fought back to claim the victory, but Manchester United's manager was clearly impressed with the Austrian's performance.",
-    "created_at": "2020-07-08 19:25:00",
+    "created_at": "2020-07-08 17:25:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?w=700&h=700"
   },
@@ -121,7 +121,7 @@ export default [
     "topic": "football",
     "author": "happyamy2016",
     "body": "Managerial changes are too common in the modern day game. Already in the 16/17 season, we have seen 14 managers lose their job from the Premier League to League Two. Swansea’s Francesco Guidolin became the first top division manager to lose his job but already question marks are raised regarding the future of the likes of David Moyes and Mike Phelan.",
-    "created_at": "2020-06-24 14:14:00",
+    "created_at": "2020-06-24 12:14:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/209841/pexels-photo-209841.jpeg?w=700&h=700"
   },
@@ -139,7 +139,7 @@ export default [
     "topic": "football",
     "author": "weegembump",
     "body": "The history of Futbol Club Barcelona goes from the football club's founding in 1899 and up to current time. FC Barcelona, also known simply as Barcelona and familiarly as Barça, is based in Barcelona, Catalonia, Spain. The team was founded in 1899 by a group of Swiss, English and Spanish footballers led by Joan Gamper. The club played amateur football until 1910 in various regional competitions. In 1910, the club participated in their first of many European competitions, and has since amassed ten UEFA trophies and a sextuple. In 1928, Barcelona co-founded La Liga, the top-tier in Spanish football, along with a string of other clubs. As of 2016, Barcelona has never been relegated from La Liga, a record they share with Athletic Bilbao and arch-rival Real Madrid. The history of Barcelona has often been politically. Though it is a club created and run by foreigners, Barcelona gradually became a club associated with Catalan values. In Spain's transition to autocracy in 1925, Catalonia became increasingly hostile towards the central government in Madrid. The hostility enhanced Barcelona's image as a focal point for Catalonism, and when Francisco Franco banned the use of the Catalan language, the stadium of Barcelona became one of the few places the people could express their dissatisfaction. The Spanish transition to democracy in 1978 has not dampened the club's image of Catalan pride. In the 2000s – a period of sporting success in the club and an increased focus on Catalan players – club officials have openly called for Catalonia to become an independent state.",
-    "created_at": "2020-08-02 23:14:00",
+    "created_at": "2020-08-02 21:14:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/102448/pexels-photo-102448.jpeg?w=700&h=700"
   },
@@ -157,7 +157,7 @@ export default [
     "topic": "football",
     "author": "grumpy19",
     "body": "With each click and drag of a mouse, young soccer fanatics are creating the building blocks of the advanced stats that are changing how the sport is played, watched and analyzed. Opta and Prozone are among the companies that have taken soccer stats far beyond goals and saves, into the realm of pass completion percentage, defensive touches, percentage of aerial balls won, tackle percentage and goals scored above expectation. Cameras alone can’t process all these stats. So companies employ people — mostly young, mostly male, most logging matches in their spare time as a second job — to watch matches and document every event. Their work has helped develop stats that capture the value of players who don’t score many goals, but who set them up with pinpoint passing and hustle. Teams use advanced stats to decide which players to buy and put on the pitch. And fans, whether they like it or not, read and hear more numbers than ever before about this sport that for so long bucked the sports-analytics trend.",
-    "created_at": "2020-08-17 14:03:00",
+    "created_at": "2020-08-17 12:03:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/1884576/pexels-photo-1884576.jpeg?w=700&h=700"
   },
@@ -166,7 +166,7 @@ export default [
     "topic": "football",
     "author": "jessjelly",
     "body": "Manchester United are the UK's most popular club on Instagram, with over 14m people following their account for their latest photos and videos. United's total number of followers is over six million more than second-placed Arsenal (8.1m, while Chelsea are third on the list with 7.7m followers, according to data exclusively compiled for Sky Sports. Instagram has a 500m-strong community, with one in three people on the social media site (around 165m) following a sports account.",
-    "created_at": "2020-09-13 12:02:00",
+    "created_at": "2020-09-13 10:02:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/685382/pexels-photo-685382.jpeg?w=700&h=700"
   },
@@ -193,7 +193,7 @@ export default [
     "topic": "football",
     "author": "tickle122",
     "body": "In this article, with the use of detailed Opta data, I am going to create a metric that I believe can quantify the extent and aggression of high presses employed by teams, both over a season and in any specific match. I’m going to see if it is possible define the intensity of a press with the use of numbers, more specifically by using some of the events that Opta record. Why would anyone want to do this? Well, for pretty much the same reason that we undertake any analytics study. If we can develop an objective scale which measures the intensity of a press then coaches can quickly see at a glance the strength, or otherwise, of the high pressing that their opposition has utilised in recent games. Teams or fans can also assess how much pressure their team exerted on the opposition in deep positions, and who knows, perhaps in time we will be able to assess the effectiveness that individual players have on the ability of their team to press. In essence we can take what is otherwise a subjective description and reduce it to one number so that it allows for comparison, analysis and ranking, if so desired.",
-    "created_at": "2020-04-17 12:10:00",
+    "created_at": "2020-04-17 10:10:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/906073/pexels-photo-906073.jpeg?w=700&h=700"
   },
@@ -211,7 +211,7 @@ export default [
     "topic": "football",
     "author": "jessjelly",
     "body": "At lunchtime on the day of the Champions League final in 2012, Chelsea’s manager Roberto Di Matteo had selected 10 of his 11 players. He just didn’t know who to play in left midfield. The player would have to combat Bayern Munich’s brilliant Arjen Robben and Philipp Lahm. Going into the last team meeting, Di Matteo had a private chat with his left-back, Ashley Cole. He outlined the situation, then asked Cole who he would play at left-midfield. Instead of naming a seasoned star, Cole said: “Ryan Bertrand.” The 22-year-old reserve Bertrand had never played in the Champions League, let alone in club football’s biggest game. “Why?” asked Di Matteo, surprised. “I trust him,” replied Cole. Bertrand played well, and Chelsea beat Bayern on penalties. In part, this was a victory for talent management. Di Matteo had put aside his ego, and let trust between two players drive the decision. Talent management has been a business obsession at least since 1997, when the consultancy McKinsey identified a “war for talent”. The most visible battleground of this “war” is team sport. Football, in particular, is “the quintessential model for modern-day talent-dependent business”, writes Chris Brady, professor at Salford Business School. Big football clubs pay more than half their revenues to between 3 and 7 per cent of their workforce: the players. These young men are rich, multinational, mobile, often equipped with large egos and therefore hard to manage. Football managers are, above all, talent managers.",
-    "created_at": "2020-07-09 22:14:00",
+    "created_at": "2020-07-09 20:14:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/168872/pexels-photo-168872.jpeg?w=700&h=700"
   },
@@ -229,7 +229,7 @@ export default [
     "topic": "cooking",
     "author": "weegembump",
     "body": "In a cave in South Africa, archaeologists have unearthed the remains of a million-year-old campfire, and discovered tiny bits of animal bones and ash from plants. It’s the oldest evidence of our ancient human ancestors—probably Homo erectus, a species that preceded ours—cooking a meal.",
-    "created_at": "2020-04-06 00:00:00",
+    "created_at": "2020-04-05 22:00:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?w=700&h=700"
   },
@@ -274,7 +274,7 @@ export default [
     "topic": "cooking",
     "author": "tickle122",
     "body": "Good morning. Here’s the plan for the week, not including breakfast because I’m on a farina kick and that’s not to everyone’s taste, and not including lunch because really when it comes to the midday hours you should get out of the office or the house and walk around. If you get something to eat, great, but the most important thing is to be outside where the stories are. There’s nothing happening at your desk but a screen. Anyway! I’m thinking chicken paprikash for dinner tonight, a nod toward the coming fall, served over buttery egg noodles, with green beans on the side. If you have the time, make an apple cake for dessert.",
-    "created_at": "2020-06-09 02:19:00",
+    "created_at": "2020-06-09 00:19:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?w=700&h=700"
   },
@@ -283,7 +283,7 @@ export default [
     "topic": "cooking",
     "author": "grumpy19",
     "body": "CHINA’S cities abound with restaurants and food stalls catering to Muslims as well as to the many other Chinese who relish the distinctive cuisines for which the country’s Muslims are renowned. So popular are kebabs cooked by Muslim Uighurs on the streets of Beijing that the city banned outdoor grills in 2014 in order to reduce smoke, which officials said was exacerbating the capital’s notorious smog (the air today is hardly less noxious). Often such food is claimed to be qing zhen, meaning 'pure and true', or halal, prepared according to traditional Islamic regulations. But who can tell? Last year angry Muslims besieged a halal bakery in Xining, the capital of Qinghai province, after pork sausages were found in the shop’s delivery van. There have been several scandals in recent years involving rat meat or pork being sold as lamb. These have spread Muslim mistrust of domestically produced halal products.",
-    "created_at": "2020-06-18 20:08:00",
+    "created_at": "2020-06-18 18:08:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/954677/pexels-photo-954677.jpeg?w=700&h=700"
   },
@@ -292,7 +292,7 @@ export default [
     "topic": "cooking",
     "author": "weegembump",
     "body": "'SEAFOOD fraud is a serious global problem', begins a recent report from Oceana, an NGO. Reviewing over 200 studies in 55 countries, the report finds that one in five fish sold has been mislabelled. Although fish fraud is common early in the supply chain, most of it comes at the retail level. In 65% of cases, the motivation is economic—slippery restaurateurs frequently serve up cheaper fish than they advertise to cut costs. In America, Oceana has reported instances of tilapia being sold as the more expensive red snapper. Especially brazen fish criminals have invented new types of fish entirely. In Brazil, researchers were puzzled to find markets selling 'douradinha', ' non-existent species. Close inspection found that 60% of such fish were actually 'vulture' catfish, a relatively undesirable dish. Reports in America of catfish being substituted for more expensive fish date back to at least 2002; Oceana’s study suggests that the phenomenon is spreading.",
-    "created_at": "2020-09-16 16:26:00",
+    "created_at": "2020-09-16 14:26:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?w=700&h=700"
   },
@@ -310,7 +310,7 @@ export default [
     "topic": "cooking",
     "author": "cooljmessy",
     "body": "The first day I put my family on a Paleolithic diet, I made my kids fried eggs and sausage for breakfast. If they were still hungry, I told them, they could help themselves to more sausage, but they were not allowed to grab a slice of bread, or toast an English muffin, or pour themselves a bowl of cereal. This represented a reversal of the usual strictures, and they were happy to oblige. It was like some weird, unexpected holiday—Passover in July.",
-    "created_at": "2020-05-26 06:25:00",
+    "created_at": "2020-05-26 04:25:00",
     "votes": 0,
     "article_img_url": "https://images.pexels.com/photos/33242/cooking-ingredient-cuisine-kitchen.jpg?w=700&h=700"
   },

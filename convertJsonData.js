@@ -65,7 +65,7 @@ const convertArticles = jsonCreatedAtToPostgresTimestamp(articles)
 const convertComments = jsonCreatedAtToPostgresTimestamp(comments)
 
 writeDataToFile(convertArticles,'articles.js')
-writeDataToFile(comments,'comments.js')
+writeDataToFile(convertComments,'comments.js')
 
 convertJsonToCsv(articles,'articles.csv')
 convertJsonToCsv(comments,'comments.csv')
