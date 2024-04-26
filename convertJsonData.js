@@ -1,5 +1,6 @@
 import articles from "./articles.js";
 import { writeFile } from 'fs/promises'
+import comments from "./comments.js";
 
 function jsonCreatedAtToPostgresTimestamp(jsonArray) {
     try {
@@ -30,9 +31,6 @@ async function writeDataToFile(data, fileName) {
     }
 }
 
-const convertArticles = jsonCreatedAtToPostgresTimestamp(articles)
-
-writeDataToFile(convertArticles,'articles.js')
 
 async function convertJsonToCsv(data, fileName) {
     try {
@@ -63,4 +61,11 @@ async function convertJsonToCsv(data, fileName) {
     }
 }
 
+const convertArticles = jsonCreatedAtToPostgresTimestamp(articles)
+const convertComments = jsonCreatedAtToPostgresTimestamp(comments)
+
+writeDataToFile(convertArticles,'articles.js')
+writeDataToFile(comments,'comments.js')
+
 convertJsonToCsv(articles,'articles.csv')
+convertJsonToCsv(comments,'comments.csv')
